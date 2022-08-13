@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
+    <link rel="stylesheet" href="./css/button.css" />
+</head>
+
+<body>
+    <section class="section button-section">
+        <div class="container">
+            <a href="./index.html" class="link">назад на головну</a>
+
+            <button class="button">підписатися</button>
+        </div>
+    </section>
+
+    <section class="section ul">
+        <div class="container">
+            <a href="./index.html" class="link">назад на головну</a>
+
+            <ul class="menu list">
+                <li class="menu-item"><a href="" class="menu-link link">блог</a></li>
+                <li class="menu-item"><a href="" class="menu-link link">профіль</a></li>
+                <li class="menu-item"><a href="" class="menu-link link">галерея</a></li>
+            </ul>
+
+        </div>
+    </section>
+
+    <section class="section overlay">
+        <div class="container">
+            <a href="./index.html" class="link">назад на головну</a>
+            <article class="product">
+                <div class="product-thumb">
+                    <img src="./images/kingfisher-7346545__340.webp" alt="пташка" width="340" />
+                    <div class="product-actions">
+                        <button arial-label="обране" class="item">
+                            <svg class="icon" width="20" height="20">
+                                <use href="./images/symbol-defs.svg#icon-home2"></use>
+                            </svg>
+                        </button>
+                        <button arial-label="відгуки" class="item">
+                            <svg class="icon" width="20" height="20">
+                                <use href="./images/symbol-defs.svg#icon-pencil2"></use>
+                            </svg>
+                        </button>
+                        <button arial-label=" закладки" class="item">
+                            <svg class="icon" width="20" height="20">
+                                <use href="./images/symbol-defs.svg#icon-star-full"></use>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-meta">
+                    <h3 class="product-name">синій птах</h3>
+                    <p class="product-price">ціна 1500грн</p>
+                </div>
+        </div>
+
+        </article>
+
+    </section>
+
+    <section class="section section-window">
+        <div class="container">
+            <a href="./index.html" class="link">назад на головну</a>
+            <P> ...
+            </P>
+
+            <button class="button" data-modal-open>відкрити модалку</button>
+
+            <P> ...
+            </P>
+
+            <div class="backdrop is-hidden" data-modal>
+                <div class="modal">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quibusdam maxime laudantium
+                        eaque, temporibus consectetur tenetur adipisci dolores porro repudiandae iusto ducimus expedita
+                        quod aspernatur est cumque cupiditate. Doloremque, labore.
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi architecto possimus quam nemo
+                        eius vitae autem quas non illo quibusdam? Recusandae voluptas culpa consequuntur veritatis.
+                        Nobis assumenda saepe doloribus dolor.
+                    </p>
+                    <button data-modal-close>закрити</button>
+                </div>
+            </div>
+
+            <script>
+                const refs = {
+                    openModalBtn: document.querySelector("[data-modal-open]"),
+                    closeModalBtn: document.querySelector("[data-modal-close]"),
+                    modal: document.querySelector("[data-modal]"),
+                };
+
+                refs.openModalBtn.addEventListener("click", toggleModal);
+                refs.closeModalBtn.addEventListener("click", toggleModal);
+
+                function toggleModal() {
+                    refs.modal.classList.toggle("is-hidden");
+                }
+            </script>
+        </div>
+    </section>
+
+    <section class="section list">
+        <div class="container">
+            <a href="./index.html" class="link">назад на головну</a>
+            <ul class="options">
+                <li class="options-item">
+                    <a href="" class="options-link">квіти</a>
+                </li>
+                <li class="options-item">
+                    <a href="" class="options-link">вазони</a>
+                </li>
+                <li class="options-item">
+                    <a href="" class="options-link">дерева</a>
+                    <ul class="submenu">
+                        <li><a href="">яблуні</a></li>
+                        <li><a href="">груші</a></li>
+                        <li><a href="">сливи</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci voluptatem non hic qui doloribus iure.
+                Blanditiis officiis voluptas quaerat quam. Quisquam numquam eos vero nulla dolorum obcaecati impedit,
+                explicabo incidunt.
+                Provident accusamus, impedit quod vitae deleniti harum tempora nisi eum culpa ullam reprehenderit vero
+                incidunt veritatis magni eligendi necessitatibus reiciendis asperiores quam sapiente! Inventore, nisi
+                porro enim numquam provident sint!
+                Consequuntur, aspernatur nihil ab numquam ipsum ullam a expedita molestiae esse sapiente tempora aliquam
+                blanditiis eos nobis? Nulla quae ipsam magni ipsum nostrum illo nesciunt placeat perspiciatis ullam?
+                Facilis, nam?</p>
+        </div>
+
+    </section>
+
+    <section class="section overlay">
+        <div class="container">
+            <a href="./index.html" class="link">назад на головну</a>
+            <article class="bird">
+                <div class="bird-thumb">
+                    <img src="./images/kingfisher-7346545__340.webp" alt="пташка" width="340" />
+                    <div class="bird-overlay">
+                        <div class="bird-actions">
+                            <button arial-label="обране" class="item">
+                                <svg class="icon" width="20" height="20">
+                                    <use href="./images/symbol-defs.svg#icon-home2"></use>
+                                </svg>
+                            </button>
+                            <button arial-label="відгуки" class="item">
+                                <svg class="icon" width="20" height="20">
+                                    <use href="./images/symbol-defs.svg#icon-pencil2"></use>
+                                </svg>
+                            </button>
+                            <button arial-label=" закладки" class="item">
+                                <svg class="icon" width="20" height="20">
+                                    <use href="./images/symbol-defs.svg#icon-star-full"></use>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="bird-meta">
+                    <h3 class="bird-name">синій птах</h3>
+                    <p class="bird-price">ціна 1500грн</p>
+                </div>
+        </div>
+
+        </article>
+
+    </section>
+
+
+
+
+</body>
+
+</html>
