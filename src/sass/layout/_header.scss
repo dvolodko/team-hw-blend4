@@ -25,9 +25,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: 36px;
+  padding: 0 36px;
 
   color: var(--logo-header-color);
+}
+
+.logo__img {
+  display: inline-block;
+  width: 107px;
+  height: 47px;
 }
 
 .site-nav {
