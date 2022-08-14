@@ -1,0 +1,65 @@
+// TODO: Move the auxiliary styles to utils
+// Common auxiliary styles
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1440px;
+}
+
+// TODO: Move the components styles to components
+// Common components styles
+.button {
+}
+
+// Section styles
+
+.compare-section {
+  max-width: 1440px;
+  min-height: 1179px;
+  margin: 0 auto;
+  padding-top: 580px;
+  padding-bottom: 85px;
+
+  text-align: center;
+
+  background-color: #070e16;
+  background-image: url(./../images/compare-section-bg-squoshed.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.product-list {
+}
+.product-list__item {
+}
+.product {
+}
+.product__main-feature {
+}
+.product__name {
+}
+.product__main-descr {
+}
+.product__secondary-descr {
+}
+.product__price {
+}
+.product__price-highlight {
+}
+
+.see-more-link {
+}
