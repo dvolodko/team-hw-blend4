@@ -22,6 +22,19 @@
 // TODO: Move the components styles to components
 // Common components styles
 .button {
+  min-width: 220px;
+  min-height: 52px;
+  padding: 17px 37px 21px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0.11px;
+  text-transform: uppercase;
+  color: var(--button-main-text-color);
+
+  background-color: var(--button-main-bg-color);
+  border-color: transparent;
 }
 
 // Section styles
@@ -31,9 +44,7 @@
   min-height: 1179px;
   margin: 0 auto;
   padding-top: 580px;
-  padding-bottom: 85px;
-
-  text-align: center;
+  padding-bottom: 80px;
 
   background-color: #070e16;
   background-image: url(./../images/compare-section-bg-squoshed.jpg);
@@ -42,24 +53,89 @@
   background-size: cover;
 }
 
+.compare-section__see-more-link-wrap {
+  text-align: center;
+}
+
 .product-list {
+  display: flex;
+  gap: 240px;
+  padding-left: 188px;
+  padding-right: 70px;
+  margin-bottom: 90px;
 }
 .product-list__item {
 }
+
+// Product card styles
 .product {
 }
 .product__main-feature {
+  display: inline-block;
+  padding: 0 14px;
+  margin-bottom: 16px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.31;
+  text-transform: uppercase;
+  color: #000000;
+
+  background: #ffffff;
+  border-radius: 18px;
 }
 .product__name {
-}
-.product__main-descr {
-}
-.product__secondary-descr {
-}
-.product__price {
-}
-.product__price-highlight {
+  margin-bottom: 13px;
+
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.22;
+  color: #ffffff;
 }
 
+.product__main-descr {
+  margin-bottom: 20px;
+
+  font-size: 42px;
+  line-height: 1.14;
+  color: #ffffff;
+}
+
+.product__secondary-descr {
+  margin-bottom: 33px;
+
+  font-size: 18px;
+  line-height: 1.4;
+  color: #ffffff;
+}
+.product__price {
+  margin-bottom: 35px;
+
+  font-size: 18px;
+  line-height: 1.4;
+  color: #ffffff;
+}
+.product__price-highlight {
+  font-weight: 700;
+}
+
+// See more link styles
 .see-more-link {
+  display: inline-block;
+
+  font-size: 14px;
+  line-height: 1.15;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.see-more-link::after {
+  content: '';
+
+  display: block;
+  margin-top: 5px;
+  width: 100%;
+  height: 1px;
+
+  background-color: #ffffff;
 }
