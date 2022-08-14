@@ -1,3 +1,13 @@
+// TODO: Move variables to common variables
+// Common variables
+:root {
+  --forth-font-color: #000000;
+  --button-focused-bg-color: #223072;
+
+  --transition-duration: 250ms;
+  --transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 // TODO: Move the auxiliary styles to utils
 // Common auxiliary styles
 .visually-hidden {
@@ -20,7 +30,8 @@
 }
 
 // TODO: Move the components styles to components
-// Common components styles
+//----------------------------------- Common components styles -----------------------------------
+
 .button {
   min-width: 220px;
   min-height: 52px;
@@ -35,7 +46,53 @@
 
   background-color: var(--button-main-bg-color);
   border-color: transparent;
+  cursor: pointer;
+  transition: background-color var(--transition-duration)
+    var(--transition-timing-function);
 }
+
+.button:hover,
+.button:focus {
+  background-color: var(--button-focused-bg-color);
+}
+
+.button:active {
+  background-color: var(--button-main-bg-color);
+}
+
+// See more link styles
+.see-more-link {
+  display: inline-block;
+
+  font-size: 14px;
+  line-height: 1.15;
+  text-transform: uppercase;
+  color: var(--secondary-font-color);
+
+  transition: color var(--transition-duration) var(--transition-timing-function);
+}
+
+.see-more-link:hover,
+.see-more-link:hover {
+  color: var(--button-focused-bg-color);
+}
+
+.button:active {
+  background-color: var(--secondary-font-color);
+}
+
+.see-more-link::after {
+  content: '';
+
+  display: block;
+  margin-top: 5px;
+  width: 100%;
+  height: 1px;
+
+  background-color: currentColor;
+}
+
+//----------------------------------- End common components styles -----------------------------------
 
 // Section styles
 
@@ -64,12 +121,15 @@
   padding-right: 70px;
   margin-bottom: 90px;
 }
+
 .product-list__item {
 }
 
 // Product card styles
 .product {
+  color: var(--secondary-font-color);
 }
+
 .product__main-feature {
   display: inline-block;
   padding: 0 14px;
@@ -79,9 +139,9 @@
   font-size: 16px;
   line-height: 1.31;
   text-transform: uppercase;
-  color: #000000;
+  color: var(--forth-font-color);
 
-  background: #ffffff;
+  background: var(--main-section-bg-color);
   border-radius: 18px;
 }
 .product__name {
@@ -90,7 +150,6 @@
   font-weight: 400;
   font-size: 36px;
   line-height: 1.22;
-  color: #ffffff;
 }
 
 .product__main-descr {
@@ -98,7 +157,6 @@
 
   font-size: 42px;
   line-height: 1.14;
-  color: #ffffff;
 }
 
 .product__secondary-descr {
@@ -106,36 +164,13 @@
 
   font-size: 18px;
   line-height: 1.4;
-  color: #ffffff;
 }
 .product__price {
   margin-bottom: 35px;
 
   font-size: 18px;
   line-height: 1.4;
-  color: #ffffff;
 }
 .product__price-highlight {
   font-weight: 700;
-}
-
-// See more link styles
-.see-more-link {
-  display: inline-block;
-
-  font-size: 14px;
-  line-height: 1.15;
-  text-transform: uppercase;
-  color: #ffffff;
-}
-
-.see-more-link::after {
-  content: '';
-
-  display: block;
-  margin-top: 5px;
-  width: 100%;
-  height: 1px;
-
-  background-color: #ffffff;
 }
