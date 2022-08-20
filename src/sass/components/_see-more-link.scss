@@ -1,0 +1,31 @@
+// See more link styles
+.see-more-link {
+  display: inline-block;
+
+  font-size: 14px;
+  line-height: 1.15;
+  text-transform: uppercase;
+  color: var(--secondary-font-color);
+
+  transition: color var(--transition-duration) var(--transition-timing-function);
+}
+
+.see-more-link:hover,
+.see-more-link:hover {
+  color: var(--button-focused-bg-color);
+}
+
+.button:active {
+  background-color: var(--secondary-font-color);
+}
+
+.see-more-link::after {
+  content: '';
+
+  display: block;
+  margin-top: 5px;
+  width: 100%;
+  height: 1px;
+
+  background-color: currentColor;
+}
