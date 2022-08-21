@@ -1,0 +1,39 @@
+.hero {
+  width: 1440px;
+  margin: auto;
+  padding-top: 120px;
+  padding-bottom: 367px;
+
+  background: url(./../images/eero-device.png), url(./../images/hero-image.jpg),
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-repeat: no-repeat;
+  background-size: 576px 324px, contain, contain;
+  background-position: center top 407px, center top 0px, center;
+  text-align: center;
+}
+.hero__title {
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 1.11;
+  color: var(--secondary-font-color);
+  margin-bottom: 24px;
+}
+.hero__paragraph {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 1.38;
+  color: var(--secondary-font-color);
+  margin-bottom: 16px;
+}
+.hero__button {
+  cursor: pointer;
+  background-color: transparent;
+  color: var(--secondary-font-color);
+  border: 1px solid var(--secondary-font-color);
+  padding: 16px 37px 21px 37px;
+}
+
+.hero__button:hover,
+.hero__button:focus {
+  background-color: rgba(36, 105, 255, 0.5);
+}
