@@ -10,6 +10,8 @@
   
   --button-main-text-color: #FFFFFF;
   --button-main-bg-color: #2468FF;
+  --forth-font-color: #000000;
+  --button-focused-bg-color: #223072;
 
   --green-button-active-bg-color: #00B68C;
   --green-button-main-bg-color: #999999;
@@ -24,4 +26,7 @@
   --secondary-section-bg-color: #F7F7F7;
   --thirdly-section-bg-color: #161F49;
   --forthly-section-bg-color: #404040:
+
+  --transition-duration: 250ms;
+  --transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
