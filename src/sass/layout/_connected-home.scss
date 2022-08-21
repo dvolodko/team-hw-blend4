@@ -1,0 +1,41 @@
+.ch-text {
+  font-size: 18px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--main-font-color);
+}
+
+.ch-logo {
+}
+
+.ch-link {
+  text-decoration: none;
+
+  font-size: 14px;
+  line-height: 1.15;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--main-font-color);
+}
+
+.ch-link:after {
+  width: 78px;
+  height: 1px;
+  color: var(--main-font-color);
+}
+.ch-title {
+  font-size: 50px;
+  line-height: 1.2;
+  text-align: center;
+  color: var(--main-font-color);
+}
+.ch-after-title {
+  font-size: 18px;
+  line-height: 1.4;
+  text-align: center;
+  color: var(--main-font-color);
+}
+.ch-btn {
+}
+.ch-img {
+}
