@@ -3,8 +3,8 @@
     width: 1400px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 234.61px;
-    padding-right: 234.61px;
+    padding-left: 234px;
+    padding-right: 234px;
    
 }
 .features-list {
@@ -13,14 +13,14 @@
    
   }
   .features-item:not(:last-child) {
-    margin-right: 150.83px;
+    margin-right: 150px;
   }
   .features-item {
-    flex-basis: calc((100% - 301.66px) / 3);
+    flex-basis: calc((100% - 300px) / 3);
     min-height: 426px;
     position: relative;
-    padding-right: 12.3px;
-   padding-left: 12.3px;
+    padding-right: 12px;
+   padding-left: 12px;
    
   }
 
@@ -80,5 +80,5 @@
  .link-wrap{
     position: absolute;
     bottom: 0;
-    left: 12.3;
+    left: 12;
  }
