@@ -15,8 +15,10 @@
   background-color: var(--button-main-bg-color);
   border-color: transparent;
   cursor: pointer;
-  transition: background-color var(--transition-duration)
-    var(--transition-timing-function);
+  @include transition((background-color, color, border-color, box-shadow))
+    // transition: background-color var(--transition-duration)
+    //   var(--transition-timing-function);
+;
 }
 
 .button:hover,
