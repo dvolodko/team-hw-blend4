@@ -1,0 +1,70 @@
+.potential {
+  padding-top: 0px;
+}
+.container__potential {
+  background: url(./../images/potentialbg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding-top: 167px;
+  padding-bottom: 72px;
+}
+
+.potential__list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 57px;
+}
+
+.potential__item {
+  width: 77px;
+  height: 77px;
+}
+
+.potential__link {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border: 1px solid var(--secondary-font-color);
+  border-radius: 27px;
+  fill: var(--secondary-font-color);
+  color: var(--secondary-font-color);
+}
+.potential__link:hover,
+.potential__link:focus {
+  border-color: black;
+}
+.potential__title {
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 1.2;
+  color: var(--secondary-font-color);
+  margin-bottom: 44px;
+}
+.potential__paragraph {
+  max-width: 734px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.4;
+  color: var(--secondary-font-color);
+  margin: 0px auto 118px;
+}
+
+.potential__button {
+  margin-bottom: 69px;
+}
+
+.potential__wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.potential_rectangel {
+  display: block;
+  width: 8px;
+  height: 8px;
+  background-color: var(--secondary-font-color);
+}
