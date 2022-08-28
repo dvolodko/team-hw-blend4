@@ -1,0 +1,50 @@
+.support.section {
+  padding: 120px, 0;
+  background-color: var(--main-section-bg-color);
+}
+.support-title,
+.support-text,
+.support-description {
+  font-weight: 400;
+  text-align: center;
+  color: var(--main-font-color);
+}
+.support-title {
+  font-size: 50px;
+  line-height: 1.2;
+  margin-bottom: 35px;
+}
+.support-text {
+  margin-bottom: 44px;
+}
+.support-text,
+.support-description {
+  font-size: 18px;
+  line-height: 1.4;
+}
+.support-btn {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 94px;
+  padding-top: 17px;
+  padding-left: 66px;
+}
+.support-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+}
+.support-options {
+  display: inline-flex;
+  align-items: center;
+  width: 256px;
+  height: 36px;
+  margin: 0;
+}
+.support-icon {
+  display: flex;
+  margin-right: 18px;
+  fill: #231f20;
+}

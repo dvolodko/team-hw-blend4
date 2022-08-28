@@ -1,0 +1,83 @@
+// Stas test changes 1
+
+// Section styles
+
+.compare-section {
+  max-width: 1440px;
+  min-height: 1179px;
+  margin: 0 auto;
+  padding-top: 580px;
+  padding-bottom: 80px;
+
+  // background-color: #070e16;
+  background-color: red;
+  background-image: url(./../images/compare-section-bg-squoshed.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.compare-section__see-more-link-wrap {
+  text-align: center;
+}
+
+.product-list {
+  display: flex;
+  gap: 240px;
+  padding-left: 188px;
+  padding-right: 70px;
+  margin-bottom: 90px;
+}
+
+.product-list__item {
+}
+
+// Product card styles
+.product {
+  color: var(--secondary-font-color);
+}
+
+.product__main-feature {
+  display: inline-block;
+  padding: 0 14px;
+  margin-bottom: 16px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.31;
+  text-transform: uppercase;
+  color: var(--forth-font-color);
+
+  background: var(--main-section-bg-color);
+  border-radius: 18px;
+}
+.product__name {
+  margin-bottom: 13px;
+
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.22;
+}
+
+.product__main-descr {
+  margin-bottom: 20px;
+
+  font-size: 42px;
+  line-height: 1.14;
+}
+
+.product__secondary-descr {
+  margin-bottom: 33px;
+
+  font-size: 18px;
+  line-height: 1.4;
+}
+.product__price {
+  margin-bottom: 35px;
+
+  font-size: 18px;
+  line-height: 1.4;
+}
+.product__price-highlight {
+  font-weight: 700;
+}
