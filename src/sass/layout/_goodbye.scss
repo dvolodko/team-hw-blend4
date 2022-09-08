@@ -1,0 +1,31 @@
+.section-goodbye {
+  text-align: center;
+  background-color: #2468ff;
+  max-width: 1440px;
+  height: 480px;
+  padding-top: 111px;
+  padding-bottom: 114px;
+  background-color: #f7f7f7;
+  background-image: url(./../images/goodbye.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  &__title {
+    max-width: 596px;
+    text-align: center;
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 83px;
+    //   @include font(50px, 1.2, null, null);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 1.2;
+  }
+
+  &__btn {
+    min-width: 160px;
+    max-height: 52px;
+  }
+}
