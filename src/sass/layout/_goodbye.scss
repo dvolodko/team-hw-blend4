@@ -10,22 +10,22 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
-.section-goodbye__title {
-  max-width: 596px;
-  text-align: center;
-  color: #ffffff;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 83px;
-  //   @include font(50px, 1.2, null, null);
-  font-style: normal;
-  font-weight: 400;
-  font-size: 50px;
-  line-height: 1.2;
-}
+  &__title {
+    max-width: 596px;
+    text-align: center;
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 83px;
+    //   @include font(50px, 1.2, null, null);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 1.2;
+  }
 
-.section-goodbye__btn {
-  min-width: 160px;
-  max-height: 52px;
+  &__btn {
+    min-width: 160px;
+    max-height: 52px;
+  }
 }
